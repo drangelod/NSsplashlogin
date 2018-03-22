@@ -1,0 +1,83 @@
+
+/* Override main-page.xml styles here: */
+
+.page-layout {    
+     background-color: #2a10c2;
+     animation-name: intro-background-intro;
+     animation-duration: 2;
+     animation-fill-mode: forwards;
+     animation-iteration-count: 1;
+     animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+ }
+ @keyframes intro-background-intro {
+     0% {        
+         background-color: #2a10c2;
+     }
+     20%{
+         background-color: #2a10c2;
+     }
+     100% {
+         background-color: white;
+     }
+}
+
+.input-field{    
+    border-width: 1;
+    border-style: 'solid';
+    border-color: #0266d1;
+    border-radius: 10px;    
+    padding:10;
+    margin-top:20;
+    margin-left: 20;
+    margin-right: 20;    
+}
+.btn-def {
+    color: white;
+    background-color: rgb(48, 48, 241);
+    border-color:rgb(41, 40, 40);
+    width:120;
+    margin-top:20;    
+}
+.logo-image{
+    /*margin-bottom:50;*/
+}
+.anim-fade-in{    
+    animation-name: intro-element-intro;
+    animation-duration: 2;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);    
+}
+@keyframes intro-element-intro {
+    0% {
+        opacity:0;
+        transform: translate(0, 1000);
+        animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    100% {
+        opacity:1;
+        animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);        
+        transform: translate(0, 0) ;        
+    }
+}
+
+.company-image{
+    transform:scale(0.9,0.9) translate(0,54); 
+    animation-name: intro-company-intro;
+    animation-duration: 4;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);    
+}
+@keyframes intro-company-intro {
+    0% {        
+        transform:scale(0.9,0.9) translate(0,54); 
+        animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+        opacity: 1;        
+    }    
+    100% {
+        animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+        transform:scale(0,0) translate(0,-554); 
+        opacity: 0;        
+    }   
+}

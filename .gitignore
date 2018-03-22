@@ -1,0 +1,7 @@
+node_modules/
+platforms/
+.DS_Store
+npm-debug.log
+*.js.map
+.git
+

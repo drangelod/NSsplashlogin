@@ -1,0 +1,13 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" id="objPage" backgroundSpanUnderStatusBar="true"  actionBarHidden="true" class="page-layout" loaded="onLoaded" >    
+    <ScrollView orientation="vertical"> 
+        <GridLayout>
+        <Image row="0" col="0" class="company-image" id="companyImage" src="res://splashlogofull" />
+        <StackLayout row="0" col="0" width="100%" height="100%" visibility="visible" id="layoutStack" horizontalAlignment="center"  verticalAlignment="center" orientation="vertical">                   
+            <Image class="logo-image anim-fade-in"  id="logoGopher" src="res://gopherlogo" stretch="none" horizontalAlignment="center" />
+            <TextField  editable="false" tap="setEditable" class="input-field anim-fade-in" id="fieldEmail" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+            <TextField  editable="false" tap="setEditable" class="input-field anim-fade-in" id="fieldPassword" secure="true" hint="Password" /> 
+            <Button class="btn btn-outline btn-active btn-rounded-lg  btn-def anim-fade-in"  id="buttonLogin"  text="Sign in" />
+        </StackLayout>    
+        </GridLayout>    
+     </ScrollView>
+</Page>
