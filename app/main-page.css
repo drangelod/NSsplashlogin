@@ -38,9 +38,6 @@
     width:120;
     margin-top:20;    
 }
-.logo-image{
-    /*margin-bottom:50;*/
-}
 .anim-fade-in{    
     animation-name: intro-element-intro;
     animation-duration: 2;

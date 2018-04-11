@@ -2,7 +2,7 @@
 	"description": "Splashscreen Animated Login example",
 	"license": "MIT",
 	"readme": "Splashscreen Animated Login example for https://blog.angelengineering.com/animated-nativescript-login-splashscreen/",
-	"repository": "<fill-your-repository-here>",
+	"repository": "https://github.com/drangelod/NSsplashlogin",
 	"nativescript": {
 		"id": "com.angelengineering.splashlogin",
 		"tns-android": {
